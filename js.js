@@ -11,7 +11,7 @@ var carta1 = {
 }
 var carta2 = {
   nome: "Mordecai",
-  foto: "<img src='https://static.wikia.nocookie.net/apenasumshow/images/8/8c/250px-Mordecai_character.png/revision/latest/smart/width/250/height/250?cb=20150110202237&path-prefix=pt-br' >",
+  foto: "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2tHnGpho_8zUzhaS1OxJB7rF7Kg19Hthtw&usqp=CAU' >",
   atributos: {
       poderes: 30,
       inteligencia: 73,
