@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Apenas um show</title>
+    <link rel="stylesheet" href="style.css">
+  <html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </head>
+  <body>
+    <div class="container">
+      <img src="" class="page-logo"
+            alt="">
+      <div class="caixa">
+        <h3>Quem vence essa disputa?</h3>
+      </div>
+      <div class="principal">
+        <div class="jogador">
+          <div class="carta" id="player">
+
+          </div>
+        </div>
+        <div class="funcoes">
+          <div>
+            <input type="submit" id="btnSortear" onclick="sortearCarta()" value="Sortear carta">
+          </div>
+          <div class="opcoes" id="opcoes">
+
+          </div>
+          <div>
+            <input type="submit" id="btnJogar" onclick="jogar()" value="Jogar" disabled="true">
+          </div>
+        </div>
+        <div class="maquina">
+          <div class="carta" id="computador">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js.js"></script>
+</head>
+
+
+</body>
+</html>
